@@ -1,3 +1,8 @@
 import "./styles.css";
-import "./menu/menu.js";
-import "./about/about.js";
+import {generateHome} from "./home/home.js";
+import {generateMenu} from "./menu/menu.js";
+import {generateAbout} from "./about/about.js";
+
+generateHome();
+
+menu.addEventListener('click', generateMenu);
