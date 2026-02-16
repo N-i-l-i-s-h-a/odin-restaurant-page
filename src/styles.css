@@ -18,6 +18,7 @@ body{
 nav{
     background-color: rgba(66, 62, 62, 0.212);
     position: sticky;
+    overflow: hidden;
     z-index: 1000;
     top: 0;
     width: 100%;

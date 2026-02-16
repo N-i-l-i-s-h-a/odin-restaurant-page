@@ -1,17 +1,26 @@
 #content{
+    padding: 0;
+}
+#inner-content{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
 }
 .menu{
+    background-color: rgba(66, 62, 62, 0.212);
     width: 80vw;
     height: 80vh;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 1px groove rgba(66, 62, 62, 0.212);
+    border-radius: 20px;
 }
 .item{
     display: flex;
     justify-content: space-between;
+}
+img{
+    width: 200px;
+    height: 200px;
 }
