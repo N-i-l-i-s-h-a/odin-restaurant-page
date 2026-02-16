@@ -1,2 +1,3 @@
 import "./styles.css";
-console.log("This is the restaurant page.");
+import "./menu/menu.js";
+import "./about/about.js";
