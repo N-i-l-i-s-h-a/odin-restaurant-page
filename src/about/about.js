@@ -9,8 +9,20 @@ function generateAbout(){
     abBg.src = bg;
     abBg.classList.add("bg-about");
 
+    const para = document.createElement('div');
+    para.textContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptatibus sed vero qui sapiente iste quae, maxime ipsa sint ullam! 
+    Recusandae, iusto harum? Reiciendis obcaecati voluptas corrupti eum amet nemo deleniti.
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Voluptatibus sed vero qui sapiente iste quae, maxime ipsa sint ullam! 
+    Recusandae, iusto harum? Reiciendis obcaecati voluptas corrupti eum amet nemo deleniti.`;
+    para.classList.add("text");
+
     const abDiv = document.createElement('div');
+    abDiv.classList.add("about");
     abDiv.append(abBg);
+    abDiv.append(para);
 
     content.append(abDiv);
 }

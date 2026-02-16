@@ -1,4 +1,26 @@
 .bg-about{
-    width: 100%;
+    width: 50%;
     height: auto;
+    border-radius: 20px;
+    border: 5px outset gray;
+    position: fixed;
+    top: 100px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+.text{
+    z-index: inf;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    border-radius: 20px;
+    border: 5px outset gray;
+    position: fixed;
+    top: 150px;
+    padding: 50px;
 }
