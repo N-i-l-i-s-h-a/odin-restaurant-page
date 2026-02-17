@@ -1,6 +1,5 @@
 import "./home.css";
 import {generateMenu} from "../menu/menu.js";
-import {generateAbout} from "../about/about.js";
 
 import bgImg from "../assets/images/bg.png";
 
