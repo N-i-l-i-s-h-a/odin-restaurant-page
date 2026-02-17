@@ -23,10 +23,6 @@ function generateHome(){
     description.classList.add("lorem");
     description.textContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Voluptatibus sed vero qui sapiente iste quae, maxime ipsa sint ullam! 
-    Recusandae, iusto harum? Reiciendis obcaecati voluptas corrupti eum amet nemo deleniti.
-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Voluptatibus sed vero qui sapiente iste quae, maxime ipsa sint ullam! 
     Recusandae, iusto harum? Reiciendis obcaecati voluptas corrupti eum amet nemo deleniti.`
 
     homeContent.append(heading);
